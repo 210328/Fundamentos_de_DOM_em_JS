@@ -1,0 +1,9 @@
+body { font-family: sans-serif; background-color: #f4f4f4; }
+.container { max-width: 500px; margin: 30px auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.input-area { display: flex; margin-bottom: 20px; }
+#input-tarefa { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+#botao-adicionar { padding: 10px; border: none; background-color: #28a745; color: white; cursor: pointer; border-radius: 4px; margin-left: 10px; }
+ul { list-style-type: none; padding: 0; }
+li { padding: 12px; border-bottom: 1px solid #eee; cursor: pointer; }
+li:hover { background-color: #f0f0f0; }
+li.completed { text-decoration: line-through; color: #888; }
