@@ -1,6 +1,8 @@
 body { font-family: sans-serif; }
-.container { text-align: center; padding: 50px; }
-.hidden { display: none; }
+.container { text-align: center; padding: 50px;}
+#modal-overlay.hidden {
+    display: none;
+}
 
 #modal-overlay {
     position: fixed;
@@ -14,7 +16,6 @@ body { font-family: sans-serif; }
     align-items: center;
     z-index: 1000;
 }
-
 #modal {
     background-color: white;
     padding: 30px;
